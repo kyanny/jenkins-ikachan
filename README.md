@@ -13,7 +13,7 @@ Jenkins build result notification with ikachan
 ## Setup
 
 * Create new free-style job on Jenkins
-* Parameterized build setting (fig.1)
+* Parameterized build setting ([fig.1](#fig1))
   * `join_url` is ikachan join url
   * `notice_url` is ikachan notice url
   * `channel` is irc channel
@@ -25,7 +25,7 @@ Jenkins build result notification with ikachan
 curl -s https://gist.github.com/kyanny/cfe1ba03a72f86a18477/raw/ikachan.rb | ruby
 ```
 
-* Invoke from other jobs with parameters (fig.2)
+* Invoke from other jobs with parameters ([fig.2](#fig2))
   * Choose `Complete (always trigger)`
 
 ```
