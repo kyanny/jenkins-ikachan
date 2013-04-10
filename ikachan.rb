@@ -8,6 +8,9 @@ channel    = ENV['channel']
 job        = ENV['job']
 url        = ENV['url']
 
+p [join_url, notice_url, channel, job, url]
+
+
 http = Net::HTTP.new(URL(join_url).host, URI(join_url).port)
 req = Net::HTTP::Post.new(URL(join_url).path)
 req.form_data = { 'channel' => channel }
