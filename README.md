@@ -33,6 +33,14 @@ job=$JOB_NAME
 url=$BUILD_URL
 ```
 
-fig.1 ![fig.1](./fig.1.png)
+---
 
-fig.2 ![fig.2](./fig.2.png)
+### fig.1
+
+<img src="./fig.1.png" style="border: 3px solid #000" />
+
+---
+
+### fig.2
+
+<img src="./fig.2.png" style="border: 3px solid #000" />
