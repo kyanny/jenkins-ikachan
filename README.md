@@ -22,7 +22,7 @@ Jenkins build result notification with ikachan
 * Build: run shell script
 
 ```
-curl -s https://gist.github.com/kyanny/cfe1ba03a72f86a18477/raw/ikachan.rb | ruby
+curl -s https://raw.github.com/kyanny/jenkins-ikachan/v1.0/ikachan.rb | ruby
 ```
 
 * Invoke from other jobs with parameters ([fig.2](#fig2))
