@@ -1,6 +1,6 @@
 # Jenkins Ikachan
 
-![fig0](./fig.0.png)
+<img src="./fig.0.png" style="border: 3px solid #000" />
 
 Jenkins build result notification with ikachan
 
