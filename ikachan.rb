@@ -34,5 +34,5 @@ result = if code.nil?
 message = "Jenkins (%s): %s - %s" % [job, result, url]
 http = Net::HTTP.new(URI(notice_url).host, URI(notice_url).port)
 req = Net::HTTP::Post.new(URI(notice_url).path)
-req.form_data = { 'channel' => channel, message => message }
+req.form_data = { 'channel' => channel, 'message' => message }
 http.request(req)
