@@ -1,5 +1,7 @@
 # Jenkins Ikachan
 
+![fig0](./fig.0.png)
+
 Jenkins build result notification with ikachan
 
 ## Requirement
